@@ -74,7 +74,7 @@ export default defineComponent({
           title: "vstime (VsCode Extension)",
           period: "2025.01.26 (1人)",
           description: "vscode extension 개발",
-          features: "포트폴리오",
+          features: "타이머",
           url: "https://github.com/walterkor/vstime",
           techStack: ["TypeScript"],
           images: [
