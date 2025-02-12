@@ -24,17 +24,33 @@
         일상의 작은 불편함을 해소하기 위해 실용적이고 유용한 개발을 지향합니다.
       </p>
       <div class="social-links">
-        <a href="#" target="_blank" aria-label="Blog">
-          <i class="fas fa-pen"></i>
-          <!-- Blog 아이콘 예시 -->
-        </a>
-        <a href="#" target="_blank" aria-label="GitHub">
+        <!-- <a href="#" target="_blank" aria-label="Blog">
+          <i class="fas fa-pen"></i>          
+        </a> -->
+        <a
+          href="javascript:void(0)"
+          aria-label="GitHub"
+          onclick="window.open('https://github.com/walterkor')"
+        >
           <i class="fab fa-github"></i>
           <!-- GitHub 아이콘 -->
         </a>
-        <a href="#" target="_blank" aria-label="PDF">
-          <i class="fas fa-file-pdf"></i>
+        <a
+          href="javascript:void(0)"
+          onclick="window.open('https://abrasive-keeper-be9.notion.site/2c1b8f8d73e44c57bd06f4a9d054a393?pvs=4')"
+        >
+          <img
+            class="mb-1"
+            width="27"
+            height="27"
+            src="../assets/notion.svg"
+            alt="notion.icon"
+          />
         </a>
+        <!-- 나중에 포트폴리오 pdf 나오면 그때 -->
+        <!-- <a href="#" target="_blank" aria-label="PDF"
+          ><i class="fas fa-file-pdf"></i
+        ></a> -->
       </div>
     </div>
   </div>

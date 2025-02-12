@@ -64,7 +64,8 @@ export default defineComponent({
         {
           company: "디엠아이시스템즈(주)",
           period: "2023.07.01 ~ 2024.07.01",
-          projectTitle: "디지털수사 시스템 통합 유지보수 관리 사업",
+          projectTitle:
+            "디지털수사 시스템 통합 유지보수 관리 사업(DNet, NDFaaS)",
           projectTitleColor: "#c67833",
           companyColor: "#7a4988",
           tasks: [
@@ -103,7 +104,12 @@ export default defineComponent({
           tasks: [
             "검찰 수사 시스템 고도화",
             "사건관리 시스템 (DEP-CLOUD), 송치관리 시스템(TDEMS), 증거관리 시스템(NDEMS)개발 ",
-            "<a href=`https://www.news1.kr/photos/6322964`>해당 기사<a/>",
+            `<a
+              href="javascript:void(0)"
+              onclick="window.open('https://www.news1.kr/photos/6322964');"
+            >
+              해당 기사
+            </a>`,
           ],
           achievements: [
             "Vue2기반으로 DEP-CLOUD, TDEMS, NDEMS 프론트 개발",

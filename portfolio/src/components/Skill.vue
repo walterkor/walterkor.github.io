@@ -63,6 +63,9 @@
         </span>
       </div>
     </div>
+    <span class="opacity-50">
+      ( 혹시 이미지가 보이지 않으면 새로고침해 주세요. )
+    </span>
   </section>
 </template>
 
