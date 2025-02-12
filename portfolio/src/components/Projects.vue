@@ -48,45 +48,47 @@ export default defineComponent({
     return {
       projects: [
         {
-          title: "helparty",
-          period: "2022.11 - 2022.07 (사내 개발자 3人)",
-          description: "운동 기록 앱",
-          features: "운동 기록 앱",
-          url: "#",
+          title: "jobprep (진행중)",
+          period: "2024.12 ~ 진행중 (개발자 3人)",
+          description: "취업 관련 커뮤니티",
+          features: "취업 관련 커뮤니티, 스터디 모임 게시판",
+          url: "https://fe.jobprep.site",
           techStack: [
-            "React-Native",
-            "Next.js",
-            "React-Query",
-            "Redux",
-            "NativeBase",
-            "Sentry",
+            "Vite",
+            "Vue3",
+            "SpringBoot",
+            "SpringSecurity",
+            "MySql",
+            "MongoDB",
+            "Redis",
+            "GitAction",
+            "Jenkins",
+            "EC2",
+            "Docker",
           ],
           images: [
-            "https://via.placeholder.com/150x300", // Replace with real image URLs
-            "https://via.placeholder.com/150x300",
+            "/images/jobprep.png", // Replace with real image URLs
           ],
         },
         {
-          title: "vstime",
+          title: "vstime (VsCode Extension)",
           period: "2025.01.26 (1人)",
           description: "vscode extension 개발",
           features: "포트폴리오",
-          url: "vscode extension",
-          techStack: ["Next.js", "Framer", "Emotion", "AWS"],
+          url: "https://github.com/walterkor/vstime",
+          techStack: ["TypeScript"],
           images: [
-            "https://via.placeholder.com/300x200", // Replace with real image URLs
+            "/images/vstime.png", // Replace with real image URLs
           ],
         },
         {
           title: "wachacha",
-          period: "2025.01.26 (3人)",
+          period: "2021.07.12 ~ 2021.08.13 (4人)",
           description: "영화추천기능 개발",
-          features: "포트폴리오",
-          url: "vscode extension",
-          techStack: ["Next.js", "Framer", "Emotion", "AWS"],
-          images: [
-            "https://via.placeholder.com/300x200", // Replace with real image URLs
-          ],
+          features: "watch 플랫폼 기반의 커뮤니티 사이트",
+          url: "https://github.com/walterkor/WACHACHA-1",
+          techStack: ["JSP", "SpringBoot", "SpringSecurity", "MySql"],
+          images: ["/images/watchacha.png"],
         },
       ],
     };
